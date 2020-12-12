@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Infogram</string>
+    <string name="nombre_de_usuario">User name</string>
+    <string name="contraseña">Password</string>
+    <string name="button_text">LOGIN</string>
+    <string name="no_tienes_cuenta">¿No tienes cuenta?,</string>
+    <string name="crea_una_qui">crea una qui</string>
+    <string name="Correo">correo</string>
+    <string name="Nombre">nombre</string>
+    <string name="Usuario">usuario</string>
+    <string name="usuario">Correo</string>
+    <string name="correo">Correo</string>
+    <string name="nombre">Nombre</string>
+    <string name="usuarioo">Ususario</string>
+    <string name="confirme_contrasena">Confirme contraseña</string>
+    <string name="button_text_create_account">ÚNETE</string>
+    <string name="rirle_crear_cuenta">Crear cuenta</string>
+    <string name="carlos_vargas_cardview">Carlos Vargas</string>
+    <string name="hace_cardview">Hace</string>
+    <string name="dias_cardview">" 4 dias"</string>
+    <string name="home_item">Home</string>
+    <string name="title_home_fragment">Home</string>
+    <string name="text_megusta_image_detail">me gusta</string>
+    <string name="text_cantidad_megusta_image_detail">10</string>
+    <string name="profile_item">Profile</string>
+    <string name="buscar_item">Buscar</string>
+    <string name="homer_item">Ho,e</string>
+    <string name="me_gusta_cardview">10 me gusta</string>
+    <string name="text_title_image_detail">Todo copas en la playa</string>
+</resources>

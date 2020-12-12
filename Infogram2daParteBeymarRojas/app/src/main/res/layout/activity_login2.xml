@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".LoginActivity2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_weight="0.6">
+
+            <ImageView
+                android:layout_margin="60dp"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/imageView_layaoutHeigth"
+                android:src="@drawable/infogram">
+            </ImageView>
+        </RelativeLayout>
+       <ScrollView
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:layout_weight="0.4"
+           android:fillViewport="true">
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:orientation="vertical"
+               android:layout_marginLeft="@dimen/login_horizontalMargina"
+               android:layout_marginRight="@dimen/login_horizontalMargin"
+               android:layout_marginTop="@dimen/login_marginTop">
+
+               <com.google.android.material.textfield.TextInputLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:theme="@style/EditTextWhite">
+
+                   <com.google.android.material.textfield.TextInputEditText
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:inputType="text"
+                       android:hint="@string/nombre_de_usuario">
+                   </com.google.android.material.textfield.TextInputEditText>
+               </com.google.android.material.textfield.TextInputLayout>
+
+               <com.google.android.material.textfield.TextInputLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:theme="@style/EditTextWhite">
+                   <com.google.android.material.textfield.TextInputEditText
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:inputType="textPassword"
+                       android:hint="@string/contraseña">
+                   </com.google.android.material.textfield.TextInputEditText>
+               </com.google.android.material.textfield.TextInputLayout>
+               <Button
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:text="@string/button_text"
+                   android:layout_marginTop="@dimen/login_marginTop"
+                   android:theme="@style/RaiseButtonDark"
+                   android:onClick="login"
+                   />
+               <RelativeLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:gravity="center">
+
+                   <TextView
+                       android:id="@+id/no_tienes_cuenta"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="@string/no_tienes_cuenta"
+                       android:textColor="@color/textView_textColor"
+                       android:textSize="@dimen/textview_textSize"/>
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="@string/crea_una_qui"
+                       android:textColor="@color/textView_textColor"
+                       android:textStyle="bold"
+                       android:layout_toRightOf="@+id/no_tienes_cuenta"
+                       android:textSize="@dimen/textview_textSize"
+                       android:onClick="goCreateAcoount"/>
+               </RelativeLayout>
+           </LinearLayout>
+       </ScrollView>
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

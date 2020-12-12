@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#143D59</color>
+    <color name="colorPrimaryDark">#F4B41A</color>
+    <color name="colorAccent">#C54B29</color>
+
+    <color name="editText_white">#FFFFFF</color>
+    <color name="editText_black">#000000</color>
+
+
+
+    <color name="textView_textColor">#FFFFFF</color>
+    <color name="backgound_cardview">#33000000</color>
+    <color name="textColor_White">#FFFFFF</color>
+    <color name="item_white">#FFFFFF</color>
+</resources>
